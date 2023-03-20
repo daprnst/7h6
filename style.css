@@ -1,0 +1,48 @@
+a {        
+    color: #1c8dc7;
+    padding: 20px;
+    text-decoration-color: #1c8dc7;
+    font-size: 20px;
+    background-color: #c2c2c2;
+    border: 10px solid #ffffff; 
+    display: block;
+}
+
+a:hover {
+    color: #7cc9f0;
+    background-color: #cccccc;
+}
+
+a:active {
+    color: #7cc9f0;
+    background-color: #555555;
+    text-decoration: underline;
+}
+
+a:target {
+    color: #f59805;
+    background-color: #555555;
+    text-decoration: underline;
+}
+
+
+a:active:first-letter, a:target:first-letter {
+    color: #eeeeee;            
+}
+
+a {        
+    color: #1c8dc7;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #00ff73;
+    border: 1px solid #ff0202; 
+    display: block;
+    line-height: 105%;
+    
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;                
+}
